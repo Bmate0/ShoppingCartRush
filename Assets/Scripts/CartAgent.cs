@@ -95,7 +95,7 @@ public class CartAgent : Agent
         {
             bool on = i < activeShoppers;
             shoppers[i].gameObject.SetActive(on);
-            if (on) shoppers[i].ResetShopper(transform.localPosition);
+            if (on) shoppers[i].ResetShopper(transform);
         }
 
         prevDistance = CurrentGoalDistance();
