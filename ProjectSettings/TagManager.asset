@@ -8,6 +8,7 @@ TagManager:
   - Shelf
   - Target
   - Shopper
+  - Checkout
   layers:
   - Default
   - TransparentFX
